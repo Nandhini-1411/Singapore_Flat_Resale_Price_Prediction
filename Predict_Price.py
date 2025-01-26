@@ -3,10 +3,10 @@ import pandas as pd
 import pickle
 
 # Load the pre-trained model and encoded values
-with open(r"D:\CAPSTONE\SINGAPORE\final_model.pkl", 'rb') as model_file:
+with open(r"final_model.pkl", 'rb') as model_file:
     model = pickle.load(model_file)
 # Load the encoded values
-with open(r"D:\CAPSTONE\SINGAPORE\venv\mapping_data.pkl", "rb") as f:
+with open(r"mapping_data.pkl", "rb") as f:
     loaded_data = pickle.load(f)
 
 st.set_page_config(page_title="Singapore Flat Resale Price Predictor", page_icon="🏡", layout="wide")
