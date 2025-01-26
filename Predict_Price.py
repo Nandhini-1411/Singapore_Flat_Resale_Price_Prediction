@@ -85,7 +85,7 @@ elif page == "Price Prediction":
     col1, col2, col3 = st.columns(3)
     with col2:
         # Predict Button and Display Result
-        if st.button("Predict"):
+        if st.button("Predict Resale Price"):
             if None in user_input.values():
                 st.error("Please fill in all the required fields before predicting.")
             else:
