@@ -38,15 +38,6 @@ This project involves several key tasks:
 ### 7. Testing and Validation:
 - Test the deployed application to ensure it functions correctly and provides accurate predictions.
 
-## Deliverables
-The project will deliver the following:
-
-- A well-trained machine learning model for resale price prediction.
-- A user-friendly web application (built with Streamlit).
-- Deployed on the Render platform (or any cloud platform).
-- Documentation and instructions for using the application.
-- A project report summarizing data analysis, model development, and deployment process.
-
 ## Technologies Used
 - **Python** (for model development and Streamlit app)
 - **Streamlit** (for web application development)
