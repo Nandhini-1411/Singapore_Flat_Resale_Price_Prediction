@@ -54,7 +54,7 @@ elif page == "Price Prediction":
     with col1:
         selected_town = st.selectbox("Select a Town", options=["Select"] + list(loaded_data["town_street_map"].keys()))
         selected_street = st.selectbox("Select a Street", options=["Select"] + list(loaded_data["town_street_map"].get(selected_town, [])))
-        block = st.number_input("Enter Block Number (sample 1 to 250 but you can give nay number)", min_value=0, max_value=985, step=1)
+        block = st.number_input("Enter Block Number (sample 1 to 250 but you can give any number)", min_value=0, max_value=985, step=1)
         flat_type = st.selectbox("Select Flat Type", options=["Select"] + list(loaded_data["flat_type_model_map"].keys()))
         flat_model = st.selectbox("Select Flat Model", options=["Select"] + list(loaded_data["flat_type_model_map"].get(flat_type, [])))
     with col2:
